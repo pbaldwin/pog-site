@@ -1,0 +1,98 @@
+/*  Hamburger navigation wrapper */
+.hamburgerNav {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  bottom: 0;
+  width: 80vw;
+  margin: 0;
+  max-width: 25rem;
+  padding-top: 3.5rem;
+  list-style: none;
+  z-index: 10;
+  transition: 0.3s left ease-in-out;
+  color: #201820;
+  text-transform: uppercase;
+}
+
+.hamburgerNav ul {
+  margin: 0;
+  list-style: none;
+}
+
+.hamburgerNav li {
+  margin: 0;
+}
+
+.hamburgerNavClosed {
+  composes: hamburgerNav;
+  left: -100%;
+}
+
+/* Hamburger Navigation controls */
+.control {
+  background: transparent;
+  border: none;
+  color: inherit;
+}
+
+.navClose {
+  composes: control;
+  position: absolute;
+  top: 0.9rem;
+  right: 0.5rem;
+  font-size: 1.6rem;
+}
+
+/* Navigation Curtain */
+.navCurtain {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: hsl(340, 100%, 65%, 0.8);
+  transition: 0.3s opacity;
+}
+
+.navCurtainClosed {
+  composes: navCurtain;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Navigation links */
+.navList {
+  border-bottom: 1px solid #201820;
+}
+
+.navLink {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  border-top: 1px solid #201820;
+  padding: 0 1rem;
+}
+
+/* Standard Navigations */
+.standardNav {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.standardNav li {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.standardNav a {
+  color: inherit;
+  text-decoration: none;
+}

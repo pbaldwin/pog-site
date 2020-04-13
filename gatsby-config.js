@@ -3,30 +3,35 @@ module.exports = {
     title: `Planet of Giants`,
     description: `The official website of Planet of Giants. Get the latest news, music, and information on the band.`,
     author: `@planetofgiants`,
+    nav_links: [
+      { link: "/records", name: "Listen" },
+      { link: "/video", name: "Watch" },
+      { link: "/images", name: "Look" },
+    ],
     social_links: [
       {
-        url: "https://instagram.com/planetofgiants",
-        icon: "fab fa-instagram",
-        name: "Instagram",
-      },
-      {
-        url: "https://twitter.com/planetofgiants",
-        icon: "fab fa-twitter",
-        name: "Twitter",
-      },
-      {
         url: "https://facebook.com/planetofgiants",
-        icon: "fab fa-facebook",
+        icon: "facebook",
         name: "Facebook",
       },
       {
         url: "https://www.youtube.com/channel/UCTDZbanyW6WF_rBMITXXddA",
-        icon: "fab fa-youtube",
+        icon: "youtube",
         name: "YouTube",
       },
       {
+        url: "https://instagram.com/planetofgiants",
+        icon: "instagram",
+        name: "Instagram",
+      },
+      {
+        url: "https://twitter.com/planetofgiants",
+        icon: "twitter",
+        name: "Twitter",
+      },
+      {
         url: "https://open.spotify.com/artist/7HPVJvmbLZt9OiUUw87Upu",
-        icon: "fab fa-spotify",
+        icon: "spotify",
         name: "Spotify",
       },
     ],
