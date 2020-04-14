@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import CTA from "./cta"
 import useMatchMedia from "../hooks/useMatchMedia"
 import styles from "./hero_image.module.css"
 
@@ -43,9 +44,7 @@ const HeroImage = () => {
       <div className={styles.content}>
         <h1 className={styles.headline}>Flamingo</h1>
         <h2 className={styles.subheadline}>A Planet of Giants EP</h2>
-        <a className={styles.cta} href="https://planetofgiants.bandcamp.com/">
-          Pre-Order Now
-        </a>
+        <CTA text="Pre-Order Now" url="https://planetofgiants.bandcamp.com/" />
       </div>
       <Img
         className={styles.image}
