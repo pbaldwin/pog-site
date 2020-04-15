@@ -6,9 +6,9 @@ module.exports = {
     description: `The official website of Planet of Giants. Get the latest news, music, and information on the band.`,
     author: `@planetofgiants`,
     nav_links: [
-      { link: "/records", name: "Listen" },
-      { link: "/video", name: "Watch" },
-      { link: "/images", name: "Look" },
+      { link: "/records", name: "Music" },
+      { link: "/videos", name: "Videos" },
+      { link: "/about", name: "About" },
     ],
     social_links: [
       {
@@ -54,7 +54,15 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`,
+      },
+    },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

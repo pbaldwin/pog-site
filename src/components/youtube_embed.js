@@ -1,14 +1,14 @@
 import React from "react"
 import styles from "./youtube_embed.module.css"
 
-const YouTubeEmbed = ({ title, src }) => (
+const YouTubeEmbed = ({ title, id }) => (
   <div className={styles.wrapper}>
     <iframe
       className={styles.video}
-      src={src}
-      frameborder="0"
+      src={`https://www.youtube.com/embed/${id}`}
+      frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
+      allowFullScreen
       title={title}
     ></iframe>
   </div>

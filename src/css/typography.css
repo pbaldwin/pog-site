@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Bourton Base";
-  src: url("fonts/5433725/d56e0602-11cb-4387-8c08-643c25accee9.eot?#iefix");
-  src: url("fonts/5433725/d56e0602-11cb-4387-8c08-643c25accee9.eot?#iefix")
+  src: url("../fonts/5433725/d56e0602-11cb-4387-8c08-643c25accee9.eot?#iefix");
+  src: url("../fonts/5433725/d56e0602-11cb-4387-8c08-643c25accee9.eot?#iefix")
       format("eot"),
-    url("fonts/5433725/edf28724-f910-4d66-b279-75f30084a820.woff2")
+    url("../fonts/5433725/edf28724-f910-4d66-b279-75f30084a820.woff2")
       format("woff2"),
-    url("fonts/5433725/f47e6088-3dc8-4164-8fd3-6b4991a90451.woff")
+    url("../fonts/5433725/f47e6088-3dc8-4164-8fd3-6b4991a90451.woff")
       format("woff"),
-    url("fonts/5433725/6f4cadc2-d48c-4f34-bd6c-4e48a4f396a0.ttf")
+    url("../fonts/5433725/6f4cadc2-d48c-4f34-bd6c-4e48a4f396a0.ttf")
       format("truetype");
 }

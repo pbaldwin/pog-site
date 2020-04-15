@@ -49,19 +49,19 @@ const IndexPage = () => (
       <h1 className={contentStyles.headline}>See Planet of Giants Rock</h1>
       <article className={contentStyles.fullwidth}>
         <YouTubeEmbed
-          src="https://www.youtube.com/embed/RDj-3JeMfvE"
+          id="RDj-3JeMfvE"
           title="Live from the Living Room: 1970 Challenger (Kowalski's Song)"
         />
         <YouTubeEmbed
-          src="https://www.youtube.com/embed/6uODIfyD-K4"
+          id="6uODIfyD-K4"
           title="Live from the Living Room: Stetson Hat"
         />
         <YouTubeEmbed
-          src="https://www.youtube.com/embed/vdmKbqFAyCM"
+          id="vdmKbqFAyCM"
           title="Live from the Living Room: Pale Horse"
         />
       </article>
-      <CTALink url="/video" text="Watch More" />
+      <CTALink url="/videos" text="Watch More" />
     </div>
   </Layout>
 )
