@@ -1,7 +1,6 @@
 const path = require("path")
 
 module.exports = {
-  pathPrefix: "/pog-site",
   siteMetadata: {
     title: `Planet of Giants`,
     description: `The official website of Planet of Giants. Get the latest news, music, and information on the band.`,
