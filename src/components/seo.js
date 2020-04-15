@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { dom } from "@fortawesome/fontawesome-svg-core"
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -32,6 +33,8 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
+      /* Inject fontawesome css into head */
+      style={dom.css()}
       title={title}
       titleTemplate={`${site.siteMetadata.title} | %s`}
       meta={[
