@@ -16,7 +16,7 @@ const IndexPage = () => (
     <div className={contentStyles.wrapper}>
       <article className={contentStyles.content}>
         <YouTubeEmbed
-          src="https://www.youtube.com/embed/-1qi03Ib0tI"
+          src="-1qi03Ib0tI"
           title="The New Single from Flamingo: Pile of Amphetamines"
         />
       </article>
