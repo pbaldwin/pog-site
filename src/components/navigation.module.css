@@ -13,7 +13,6 @@
   z-index: 10;
   transition: 0.3s left ease-in-out;
   color: #201820;
-  text-transform: uppercase;
 }
 
 .hamburgerNav ul {
@@ -76,6 +75,13 @@
   line-height: 3.5rem;
   border-top: 1px solid #201820;
   padding: 0 1rem;
+  transition: background-color 0.05s;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  background-color: #ef4f87;
 }
 
 /* Standard Navigations */
@@ -86,7 +92,6 @@
 }
 
 .standardNav li {
-  text-transform: uppercase;
   font-weight: bold;
   padding: 0 1rem;
   margin: 0;
@@ -95,4 +100,23 @@
 .standardNav a {
   color: inherit;
   text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.standardNav a::before {
+  content: "";
+  position: absolute;
+  height: 0.25rem;
+  background-color: #ef4f87;
+  width: 0;
+  left: 50%;
+  bottom: -0.3rem;
+  transition: width 0.25s, left 0.25s;
+}
+
+.standardNav a:hover::before,
+.standardNav a:focus::before {
+  width: 100%;
+  left: 0;
 }

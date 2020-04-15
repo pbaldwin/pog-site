@@ -6,4 +6,12 @@
   display: inline-block;
   text-decoration: none;
   line-height: 3.5rem;
+  font-weight: bold;
+  transition: background 0.25s, color 0.25s;
+}
+
+.cta:hover,
+.cta:focus {
+  background: #ef4f87;
+  color: #000;
 }
