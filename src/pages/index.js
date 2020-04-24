@@ -40,10 +40,7 @@ const IndexPage = () => (
             and drippy guitar lines that evoke an eerie, David Lynchian
             atmosphere that fits so well with the Pacific North West.
           </p>
-          <CTA
-            text="Pre-Order Now"
-            url="https://planetofgiants.bandcamp.com/"
-          />
+          <CTA text="Buy Now" url="https://planetofgiants.bandcamp.com/" />
         </div>
       </article>
       <h1 className={contentStyles.headline}>See Planet of Giants Rock</h1>

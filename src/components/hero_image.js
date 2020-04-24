@@ -44,7 +44,7 @@ const HeroImage = () => {
       <div className={styles.content}>
         <h1 className={styles.headline}>Flamingo</h1>
         <h2 className={styles.subheadline}>A Planet of Giants EP</h2>
-        <CTA text="Pre-Order Now" url="https://planetofgiants.bandcamp.com/" />
+        <CTA text="Buy Now" url="https://planetofgiants.bandcamp.com/" />
       </div>
       <Img
         className={styles.image}

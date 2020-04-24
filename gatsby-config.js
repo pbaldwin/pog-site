@@ -36,6 +36,21 @@ module.exports = {
         icon: "spotify",
         name: "Spotify",
       },
+      {
+        url: "https://planetofgiants.bandcamp.com/",
+        icon: "bandcamp",
+        name: "Bandcamp",
+      },
+      {
+        url: "https://music.apple.com/us/artist/planet-of-giants/995140134",
+        icon: "apple",
+        name: "Apple Music",
+      },
+      {
+        url: "https://soundcloud.com/planetofgiants",
+        icon: "soundcloud",
+        name: "Soundcloud",
+      },
     ],
   },
   plugins: [
